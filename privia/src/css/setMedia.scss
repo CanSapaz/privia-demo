@@ -1,0 +1,77 @@
+@media only screen and (max-width: 1000px) {
+  .row {
+    .col-6 {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+    .col-4 {
+      width: 100%;
+    }
+    .features-itemm {
+      width: 100%;
+    }
+  }
+
+  .collaborate-success-items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pricing-component {
+    margin-bottom: 2rem;
+  }
+
+  .prices-container {
+    display: flex;
+    justify-content: center !important;
+  }
+
+  .pricing-page {
+    .pricing-page-title {
+      display: flex;
+      justify-content: center !important;
+    }
+    .statement-card-container {
+      display: flex;
+      justify-content: center !important;
+    }
+  }
+
+  .footer-base-component {
+    .text {
+      width: min-content;
+      text-align: left;
+    }
+  }
+
+  .article-component {
+    width: 500px;
+  }
+
+  .my-masonry-grid {
+    margin-left: -30px;
+  }
+
+  .navbar {
+    .navbar-items {
+      display: none;
+    }
+    .right-menu {
+      display: inline-block;
+      visibility: visible;
+    }
+  }
+
+  .header-component{
+    .container {
+      .data-analystic-container {
+        width: 80%;
+        position: absolute;
+        bottom: 0px;
+        left: 10%;
+      }
+    }
+  }
+}
